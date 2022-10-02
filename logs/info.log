@@ -1,0 +1,22 @@
+22:36:54.807 [main] INFO  info - User Oleg Ivan created
+22:39:25.492 [main] INFO  info - User Oleg Ivan created
+22:39:25.507 [main] INFO  info - Account with id = 1 created
+22:41:29.096 [main] INFO  info - User Oleg Ivan created
+22:41:29.110 [main] INFO  info - Account with id = 1 created
+22:41:29.184 [main] INFO  info - Transaction with id = 1 created
+23:16:59.654 [main] INFO  info - User Oleg Ivan created
+23:16:59.669 [main] INFO  info - Account with id = 1 created
+21:09:40.566 [main] INFO  info - User Oleg Ivan created
+21:09:40.579 [main] INFO  info - Account with id = 1 created
+21:09:40.665 [main] INFO  info - Transaction with id = 1 created
+21:11:09.799 [main] INFO  info - User Oleg Ivan created
+21:11:09.814 [main] INFO  info - Account with id = 1 created
+21:11:09.892 [main] INFO  info - Transaction with id = 1 created
+21:12:36.968 [main] INFO  info - User Oleg Ivan created
+21:12:36.982 [main] INFO  info - Account with id = 1 created
+21:12:37.054 [main] INFO  info - Transaction with id = 1 created
+21:20:06.518 [main] INFO  info - User Oleg Ivan created
+21:20:06.533 [main] INFO  info - Account with id = 1 created
+21:20:06.604 [main] INFO  info - Transaction with id = 1 created
+21:20:07.215 [main] INFO  info - Category with id = 1 found
+21:20:07.219 [main] INFO  info - Account statement for account with id = 1 successfully exported

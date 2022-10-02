@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <property name="HOME_INFO" value="logs/info.log"/>
+    <property name="HOME_WARN" value="logs/warn.log"/>
+    <property name="HOME_ERROR" value="logs/error.log"/>
+
+
+    <appender name="info" class="ch.qos.logback.core.FileAppender">
+        <file>${HOME_INFO}</file>
+
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="warn" class="ch.qos.logback.core.FileAppender">
+        <file>${HOME_WARN}</file>
+
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="error" class="ch.qos.logback.core.FileAppender">
+        <file>${HOME_ERROR}</file>
+
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="info" level="info" additivity="false">
+        <appender-ref ref="info"/>
+    </logger>
+
+    <logger name="warn" level="warn" additivity="false">
+        <appender-ref ref="warn"/>
+    </logger>
+
+    <logger name="error" level="error" additivity="false">
+        <appender-ref ref="error"/>
+    </logger>
+
+</configuration>
